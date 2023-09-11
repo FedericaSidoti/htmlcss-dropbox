@@ -72,18 +72,28 @@ body {
 }
 
 .link {
-    padding: 0 8px; 
-    line-height: 1.8em;
+    padding: 0 15px; 
+    line-height: 2em;
     display: inline-block;
 }
 
 .button {
     background-color: #0061ff;
-    line-height: 1.8em;
+    line-height: 180%;
     color: white;
-    padding: 0 8px;
+    padding: 3px 15px;
     display: inline-block;
-    margin-left: 8px; 
+    margin-left: 15px; 
+}
+
+.logo {
+    margin-right: 15px; 
+}
+
+/*Main*/
+
+.main-content {
+    font-size: 18px;
 }
 
 /*Hero*/
@@ -101,6 +111,39 @@ body {
     font-size: 80px; 
     font-weight: 900;
 }
+
+.hero-section .col-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section .grow1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.hero-section .description {
+    margin-bottom: 10px; 
+    line-height: 150%;
+}
+
+.hero-section .button {
+    margin: 10px 0px; 
+    width: fit-content;
+}
+
+.clear {
+    padding-left: 0px;
+    background-color: #b4d0e7;
+    color: black;
+}
+
+.arrow {
+    font-size: 50px;
+    font-weight: 900;
+}
+
 
 /*DEBUG*/
 .debug .container, .debug .container-fluid {
