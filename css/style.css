@@ -50,7 +50,7 @@ body {
 /*header*/
 
 .page-header {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 200;
 }
 
@@ -93,7 +93,12 @@ body {
 /*Main*/
 
 .main-content {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 /*Hero*/
@@ -144,6 +149,23 @@ body {
     font-weight: 900;
 }
 
+/*Section Card-plans*/
+
+.card-plans_label {
+    font-size: 18px;
+}
+
+.section-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 150%;
+}
+
+.card {
+    border: 1px solid gray; 
+    padding: 10px;
+}
 
 /*DEBUG*/
 .debug .container, .debug .container-fluid {
