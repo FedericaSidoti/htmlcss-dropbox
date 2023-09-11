@@ -1,0 +1,81 @@
+/*regole di reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/*regole generali*/
+
+body {
+    font-family: sans-serif;
+}
+
+/*header*/
+
+.page-header {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding: 15px;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    padding: 0 8px; 
+    line-height: 1.8em;
+    display: inline-block;
+}
+
+.button {
+    background-color: #0061ff;
+    line-height: 1.8em;
+    color: white;
+    padding: 0 8px;
+    display: inline-block;
+    margin-left: 8px; 
+}
+
+/*DEBUG*/
+.debug .container, .debug .container-fluid {
+    background-color: beige;
+}
+
+.debug .row, .debug .nav {
+    background-color: aqua;
+    border: 1px solid blue;
+    padding: 30px;
+}
+
+.debug .col, .debug .nav_list {
+    background-color: red;
+    border: 1px dashed brown;
+    padding: 30px;
+}
