@@ -24,6 +24,29 @@ body {
     font-family: sans-serif;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    width: 100%;
+}
+
+*[class^='col-'] {
+    padding: 10px;
+}
+
+.col-12 {
+    flex-basis: 100%;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4 );
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8 );
+}
+
 /*header*/
 
 .page-header {
@@ -64,32 +87,14 @@ body {
 }
 
 /*Hero*/
+
+.hero-section {
+    background-color: #b4d0e7;
+}
+
 .container-large {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
-    width: 100%;
-}
-
-*[class^='col-'] {
-    padding: 10px;
-}
-
-.col-12 {
-    flex-basis: 100%;
-}
-
-.col-4 {
-    flex-basis: calc((100% / 12) * 4 );
-}
-
-.col-8 {
-    flex-basis: calc((100% / 12) * 8 );
 }
 
 .page-title {
