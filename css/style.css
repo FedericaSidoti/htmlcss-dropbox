@@ -151,6 +151,10 @@ body {
 
 /*Section Card-plans*/
 
+.section {
+    padding: 80px 0px;
+}
+
 .card {
     border: 1px solid gray; 
     display: flex;
@@ -247,6 +251,11 @@ body {
     margin-bottom: 25px; 
 }
 
+.description {
+    margin-bottom: 40px;
+}
+
+
 /*card in col-12*/
 
 .group {
@@ -268,6 +277,26 @@ body {
 
 .enterprise-button .button {
     margin-left: 70px;
+}
+
+/*Section Partner*/
+
+.col-7 {
+    flex-basis: calc((100% / 12) * 7); 
+}
+
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+}
+
+.partner .col-5 {
+    padding: 80px 50px; 
+}
+
+.white {
+    background-color: white;
+    color: black; 
+    border: 1px solid black; 
 }
 
 /*DEBUG*/
