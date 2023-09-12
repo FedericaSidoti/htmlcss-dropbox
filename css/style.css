@@ -29,6 +29,7 @@ a {
     --lightblue: #b4d0e7;
     --darkblue: #0d2481; 
     --yellow: #ffd830; 
+    --gray: #f5f5f5; 
 }
 
 body {
@@ -318,21 +319,68 @@ body {
     flex-basis: calc((100% / 12) * 2);
 }
 
+.teams *[class^='col-'] {
+    padding: 0;
+}
+
+.teams .row {
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
 .team-logo {
-    padding: 50px; 
-    height: 300px;
+    padding: 60px; 
     aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.team {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px; 
+}
+
+.central-logo {
+    margin-bottom: 20px; 
+}
+
+.teams .break {
+    margin-bottom: 20px; 
+}
+
 .green {
     background-color: var(--green);
 }
 
+
 .blue {
     background-color: var(--blue);
+}
+
+.bordeaux {
+    background-color: var(--bordeaux);
+}
+
+.red{
+    background-color: var(--red);
+}
+
+.deepred {
+    background-color: var(--deepred);
+}
+
+.darkblue {
+    background-color: var(--darkblue);
+}
+
+.lightblue {
+    background-color: var(--lightblue);
+}
+
+.yellow {
+    background-color: var(--yellow);
 }
 
 /*DEBUG*/
