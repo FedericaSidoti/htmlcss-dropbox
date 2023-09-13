@@ -315,6 +315,10 @@ body {
 
 /*section Teams*/
 
+.teams {
+    padding-bottom: 0px; 
+}
+
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
 }
@@ -324,8 +328,7 @@ body {
 }
 
 .teams .row {
-    padding-left: 0; 
-    padding-right: 0; 
+    padding: 0; 
 }
 
 .team-logo {
@@ -335,6 +338,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 
 .team {
     display: flex;
@@ -403,11 +407,37 @@ body {
     margin-top: 18px; 
 }
 
-.freetrial *[class^='col-'] {
-    padding: 0 50px; 
+.freetrial .col-8 {
+    padding-right:  50px; 
 }
 
+.freetrial .col-4 {
+    padding-left: 50px; 
+}
 
+/*Section questions*/
+
+.question {
+    border-top: 1px solid black; 
+    padding: 50px 0px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.question:last-child {
+    border-bottom: 1px solid black; 
+}
+
+.question .section-title {
+    margin-bottom: 50px; 
+}
+
+.question-text {
+    font-weight: 700;
+}
 
 /*DEBUG*/
 .debug .container, .debug .container-fluid {
