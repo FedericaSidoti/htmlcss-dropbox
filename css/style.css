@@ -424,7 +424,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
 }
 
 .question:last-child {
@@ -437,6 +436,31 @@ body {
 
 .question-text {
     font-weight: 700;
+}
+
+/*Section footer*/
+
+.footer {
+    background-color: #000000;
+    color: white; 
+}
+
+.footer .row:first-child {
+    margin-bottom: 70px; 
+}
+
+.footer-list {
+    flex-basis: calc(100% / 5)
+}
+
+.column {
+    flex-direction: column; 
+    gap: 70px; 
+}
+
+.big {
+    width: 150px; 
+    margin-left: 0; 
 }
 
 /*DEBUG*/
