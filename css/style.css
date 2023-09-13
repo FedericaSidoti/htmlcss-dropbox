@@ -332,11 +332,15 @@ body {
 }
 
 .team-logo {
-    padding: 60px; 
+    padding: 40px; 
     aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.team-logo:hover {
+    border: 25px solid rgba(255, 255, 255, 0.5); 
 }
 
 
