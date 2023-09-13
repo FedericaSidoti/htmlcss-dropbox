@@ -350,6 +350,10 @@ body {
     margin-bottom: 20px; 
 }
 
+.logo-team {
+    filter: invert(100%);
+}
+
 .green {
     background-color: var(--green);
 }
@@ -382,6 +386,28 @@ body {
 .yellow {
     background-color: var(--yellow);
 }
+
+/*section Freetrial*/
+
+.freetrial {
+    background-color: var(--lightblue);
+    padding: 100px 0px; 
+}
+
+.freetrial .section-title {
+    margin-bottom: 0; 
+    color: var(--bordeaux)
+}
+
+.freetrial .button {
+    margin-top: 18px; 
+}
+
+.freetrial *[class^='col-'] {
+    padding: 0 50px; 
+}
+
+
 
 /*DEBUG*/
 .debug .container, .debug .container-fluid {
