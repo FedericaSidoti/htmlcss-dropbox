@@ -104,6 +104,10 @@ body {
     margin-right: 15px; 
 }
 
+.img-peek {
+    margin-bottom: -100px; 
+}
+
 /*Main*/
 
 .main-content {
